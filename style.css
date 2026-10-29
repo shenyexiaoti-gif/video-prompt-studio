@@ -6,3 +6,6 @@
 .how li{margin:4px 0}
 .site-note{max-width:1460px;margin:0 auto;padding:18px 36px 40px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
 @media(max-width:680px){button,select,input:not([type=checkbox]){min-height:44px}nav button{min-height:0}footer{position:sticky;bottom:0;background:var(--paper);padding:12px 0;margin-top:18px;z-index:2}.site-note{padding:16px 18px 32px}.prompt{height:360px}.bgm-box{padding:2px 14px 12px}.done footer{position:static}.actions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.actions button{padding:10px 6px;font-size:13px}.actions #copy{grid-column:1/-1;margin-left:0;font-size:15px}}
+.head-actions{margin-left:auto;display:flex;gap:8px}
+.head-actions button{margin-left:0}
+@media(max-width:680px){.head-actions button{padding:8px 10px}#saved{display:none}footer{gap:8px}}
